@@ -347,6 +347,60 @@ margin-left: 60px;
 
 }
 
+/* Operations and skins side */
+
+.operations-header{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+}
+
+.operations{
+    width: 90%;
+}
+
+.operations h1{
+    font-family: 'Kanit', sans-serif;
+}
+
+.operations h2{
+margin-top: 60px;
+font-family: 'Kanit', sans-serif;
+}
+
+.operations p{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+.operations img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* skin section */
+
+.skin-section{
+    background-color: #5d79ae;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.skins{
+width: 90%;
+padding-top: 50px;
+}
+
+.skins h2{
+    font-family: 'Kanit', sans-serif;
+    font-size: 3rem;
+}
+
+video{
+    width: 100%;
+}
+
 
 
 
