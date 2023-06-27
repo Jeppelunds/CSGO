@@ -53,6 +53,17 @@ body{
     width: 100%;
 }
 
+.small-game-info{
+    background-color: #5d79ae;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: rem;
+}
+
 .front-page-section{
     background-color: #5d79ae;
     height: 100%;
@@ -134,6 +145,12 @@ body{
     .front-page-section div{
         width: 60%;
     }
+
+    .small-game-info{
+    height: 200px;
+    font-size: 2.5rem;
+    }
+
 }
 
 @media (min-width: 1400px){
