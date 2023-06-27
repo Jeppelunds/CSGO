@@ -375,10 +375,6 @@ width: 90%;
         width: 70%;
         }
 
-    .grid-template iframe{
-        height: px;
-    }
-
     .community-info{
         width: 50%;
     }
@@ -431,12 +427,14 @@ font-family: 'Kanit', sans-serif;
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .skins{
 width: 90%;
 padding-top: 50px;
 }
+
 
 .skins h2{
     font-family: 'Kanit', sans-serif;
@@ -445,6 +443,74 @@ padding-top: 50px;
 
 video{
     width: 100%;
+    margin: 0 auto;
+}
+
+.skins-info{
+    width: 100%;
+    background-color: white;
+    margin-top: -4px;
+    padding: 20px;
+}
+
+.skins-info h3{
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.skins-info p{
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 500px){
+
+video{
+    width: 100%;
+    height: 170px;
+}
+
+}
+
+@media (min-width: 800px){
+
+.operations{
+    width: 80%;
+}
+
+.skins{
+    width: 80%;
+}
+
+}
+
+@media (min-width: 1000px){
+
+    .operations{
+        width: 70%;
+    }
+    
+    .skins{
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 1300px){
+    
+    .operations{
+        width: 60%;
+    }
+    
+    .skins{
+        width: 60%;
+    }
+
+    .operations img{
+    width: 70%;
+    margin-top: 30px;
+}
+
 }
 
 
