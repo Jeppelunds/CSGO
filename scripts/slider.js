@@ -1,20 +1,3 @@
-/* Burger menu */
-
-const burgerIcon = document.querySelector('#burger-icon')
-const burgerMenu = document.querySelector('.burger-drop')
-
-burgerIcon.addEventListener('click', myFunction);
-
-function myFunction() {
-  burgerMenu.classList.toggle('active')
-}
-
-/* burger menu puttes ind i nav */
-
-document.querySelector('nav')
-
-
-
 /* image slider */ 
 
 let slideIndex = [1,1,1,1,1,1,1,1,1];
@@ -43,7 +26,3 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";  
 }
-
-
-
-

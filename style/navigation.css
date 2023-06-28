@@ -8,7 +8,9 @@ nav{
     align-items: center;
     z-index: 2;
     font-family: 'Kanit', sans-serif;
+    top: 0;
 }
+
 
 a{
     color: black;
