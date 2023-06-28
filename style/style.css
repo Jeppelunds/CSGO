@@ -26,7 +26,6 @@ body{
     align-items: center;
     height: 80vh;
     position: relative;
-    z-index: 0;
 }
 
 .front-page-header div {
@@ -35,19 +34,16 @@ body{
     align-items: center;
     font-size: 2rem;
     font-family: 'Kanit', sans-serif;
-    z-index: -2;
     margin-top: 70px;
 }
 
 
 .csgo-logo{
     width: 90%;
-    z-index: -2;
     margin-top: 150px;
 }
 
 .cs-agents{
-    z-index: -2;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -61,7 +57,6 @@ body{
     justify-content: center;
     align-items: center;
     font-family: 'Kanit', sans-serif;
-    font-size: rem;
 }
 
 .front-page-section{
@@ -109,7 +104,7 @@ body{
 @media (min-width: 660px){
 
     .trailer-vid{
-        width: 80%;
+        width: 70%;
         height: 350px;
     }
 
@@ -121,7 +116,7 @@ body{
 @media (min-width: 827px){
 
     .trailer-vid{
-        width: 80%;
+        width: 70%;
         height: 450px;
     }
 
@@ -139,7 +134,8 @@ body{
 
 @media (min-width: 1100px){
     .trailer-vid{
-        height: 600px;
+        height: 400px;
+        width: 60%;
     }
 
     .front-page-section div{
@@ -156,7 +152,8 @@ body{
 @media (min-width: 1400px){
  
 .trailer-vid{
-    height: 650px;
+    height: 540px;
+    width: 50%;
 }
 
 .cs-agents{
@@ -164,8 +161,9 @@ body{
 }
 
 .front-page-section div{
-    width: 45%;
+    width: 50%;
 }
+
 
 .csgo-logo{
     width: 60%;
